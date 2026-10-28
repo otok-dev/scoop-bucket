@@ -1,0 +1,33 @@
+{
+    "version": "0.1.17",
+    "description": "A dependency manager that builds native libraries from source",
+    "homepage": "https://git.e-poison.com/sasha/otok",
+    "license": "GPL-3.0-only",
+    "notes": "otok builds with the tools of the machine: Visual Studio's C++ tools for the native target, git, and MSYS2 for the recipes of autotools ('tool-paths' in otok's config.toml).",
+    "suggest": {
+        "git": "git",
+        "MSYS2": "msys2"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://git.e-poison.com/sasha/otok/releases/download/v0.1.17/otok-0.1.17-windows-x64.zip",
+            "hash": "7184c7f5a0b88750c73e59d149f561f2000e33c327a161ad5381225a5f6dabf4"
+        }
+    },
+    "bin": "otok.exe",
+    "checkver": {
+        "url": "https://git.e-poison.com/api/v1/repos/sasha/otok/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://git.e-poison.com/sasha/otok/releases/download/v$version/otok-$version-windows-x64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
