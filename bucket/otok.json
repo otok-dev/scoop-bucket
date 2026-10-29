@@ -1,5 +1,5 @@
 {
-    "version": "0.1.21",
+    "version": "0.1.22",
     "description": "A dependency manager that builds native libraries from source",
     "homepage": "https://git.e-poison.com/sasha/otok",
     "license": "GPL-3.0-only",
@@ -10,8 +10,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://git.e-poison.com/sasha/otok/releases/download/v0.1.21/otok-0.1.21-windows-x64.zip",
-            "hash": "d197c658671b9d29f118c3026693435edb34dda9231f4706609c04344460ffef"
+            "url": "https://git.e-poison.com/sasha/otok/releases/download/v0.1.22/otok-0.1.22-windows-x64.zip",
+            "hash": "8ace9f2607bd1ef2eb119912e5c6aa28420c8cd8b6ab854122cb2c39a4886a94"
         }
     },
     "bin": "otok.exe",
