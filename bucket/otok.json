@@ -1,5 +1,5 @@
 {
-    "version": "0.5.31",
+    "version": "0.5.32",
     "description": "A dependency manager that builds native libraries from source",
     "homepage": "https://github.com/otok-dev/otok",
     "license": "GPL-3.0-only WITH AdditionRef-otok-output-exception",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/otok-dev/otok/releases/download/v0.5.31/otok-0.5.31-windows-x64.zip",
-            "hash": "8dca68347582b1371e886bc307193720246456d455d51f21183a31366aa2195a"
+            "url": "https://github.com/otok-dev/otok/releases/download/v0.5.32/otok-0.5.32-windows-x64.zip",
+            "hash": "87c012f2e901baba12d0d91c6a2d66af6d7fdd9e7592e788f0f2ff605d186193"
         }
     },
     "bin": "otok.exe",
